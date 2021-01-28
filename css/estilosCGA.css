@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+main {
+  font-family: "Arial";
+  font-size: 16px;
+}
+main .fotos {
+  margin-bottom: 70px;
+}
+main .fotos .foto {
+  margin-bottom: 20px;
+}
+main .fotos .foto .maquina img {
+  margin-top: 30px;
+  border-radius: 10px;
+  width: 100%;
+}
+main .fotos .texto {
+  background: #000;
+}
+
+/*# sourceMappingURL=estilosCga.css.map */
