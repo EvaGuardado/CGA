@@ -3,27 +3,108 @@
   padding: 0;
 }
 
-.row {
-  margin-bottom: 20px;
-}
-
-main {
+body main {
   font-family: "Arial";
   font-size: 16px;
 }
-main .fotos {
+body main .fotos {
   margin-bottom: 70px;
 }
-main .fotos .foto {
+body main .fotos .foto {
   margin-bottom: 20px;
 }
-main .fotos .foto .maquina img {
+body main .fotos .foto .maquina img {
   margin-top: 30px;
   border-radius: 10px;
   width: 100%;
 }
-main .fotos .texto {
-  background: #000;
+body main .fotos .foto .rodillos img {
+  margin-top: 30px;
+  border-radius: 10px;
+  width: 100%;
+}
+body main .mapa iframe {
+  width: 100%;
+  max-height: 600px;
+}
+body footer .container .titulo {
+  color: #628AA1;
+  text-align: center;
+}
+body footer .formulario {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body footer .formulario .nombre {
+  border: 2px solid #cecece;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #FC0404;
+  width: 48%;
+  margin-bottom: 15px;
+}
+body footer .formulario .correo {
+  border: 2px solid #cecece;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #FC0404;
+  width: 48%;
+  margin-bottom: 15px;
+}
+body footer .formulario .mensaje {
+  width: 100%;
+  border: 2px solid #cecece;
+  border-radius: 5px;
+  padding: 15px 5px;
+  font-size: 15px;
+  color: #FC0404;
+  height: 100px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100px;
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+body footer .formulario .boton {
+  color: #fff;
+  margin: auto;
+  background: #6DA5C5;
+  border: none;
+  border-radius: 3px;
+  padding: 15px 40px;
+  cursor: pinter;
+  margin-bottom: 20px;
+}
+body footer .formulario .boton:hover {
+  background: #5988A8;
+}
+body footer .iconos {
+  display: flex;
+  background: #566573;
+  justify-content: center;
+}
+body footer .iconos a {
+  color: #fff;
+  text-align: center;
+  display: block;
+  width: 80%;
+  padding: 15px 0px;
+  width: 100px;
+  border-radius: 3px;
+  font-size: 40px;
+  margin: 0 20px;
+}
+body footer .facebook:hover {
+  background: #3b5998;
+}
+body footer .twitter:hover {
+  background: #1da1f2;
+}
+body footer .youtube:hover {
+  background: #ff0000;
 }
 
 /*# sourceMappingURL=estilosCga.css.map */
