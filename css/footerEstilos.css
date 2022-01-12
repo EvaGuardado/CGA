@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+* footer .iconos {
+  display: flex;
+  background: #98DBD1;
+  justify-content: center;
+}
+* footer .iconos a {
+  color: #fff;
+  text-align: center;
+  display: block;
+  width: 80%;
+  padding: 15px 0px;
+  width: 100px;
+  border-radius: 3px;
+  font-size: 40px;
+  margin: 0 20px;
+}
+* footer .facebook:hover {
+  background: #3b5998;
+}
+* footer .twitter:hover {
+  background: #1da1f2;
+}
+* footer .youtube:hover {
+  background: #ff0000;
+}
+
+/*# sourceMappingURL=footerEstilos.css.map */

@@ -12,20 +12,26 @@ body main {
   font-family: "Arial";
   font-size: 16px;
 }
+body main .saludo {
+  color: #17A589;
+}
+body main .principal img {
+  border-radius: 15px;
+}
 body main .mapa iframe {
   width: 100%;
   max-height: 600px;
 }
-body footer .container .titulo {
+body main .titulo {
   color: #628AA1;
   text-align: center;
 }
-body footer .formulario {
+body main .formulario {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-body footer .formulario .nombre {
+body main .formulario .nombre {
   border: 2px solid #cecece;
   border-radius: 5px;
   padding: 10px 20px;
@@ -34,7 +40,7 @@ body footer .formulario .nombre {
   width: 48%;
   margin-bottom: 15px;
 }
-body footer .formulario .correo {
+body main .formulario .correo {
   border: 2px solid #cecece;
   border-radius: 5px;
   padding: 10px 20px;
@@ -43,7 +49,7 @@ body footer .formulario .correo {
   width: 48%;
   margin-bottom: 15px;
 }
-body footer .formulario .mensaje {
+body main .formulario .mensaje {
   width: 100%;
   border: 2px solid #cecece;
   border-radius: 5px;
@@ -57,7 +63,7 @@ body footer .formulario .mensaje {
   max-height: 300px;
   margin-bottom: 20px;
 }
-body footer .formulario .boton {
+body main .formulario .boton {
   color: #fff;
   margin: auto;
   background: #6DA5C5;
@@ -67,15 +73,15 @@ body footer .formulario .boton {
   cursor: pinter;
   margin-bottom: 20px;
 }
-body footer .formulario .boton:hover {
+body main .formulario .boton:hover {
   background: #5988A8;
 }
-body footer .iconos {
+body main .iconos {
   display: flex;
-  background: #566573;
+  background: #98DBD1;
   justify-content: center;
 }
-body footer .iconos a {
+body main .iconos a {
   color: #fff;
   text-align: center;
   display: block;
@@ -86,13 +92,13 @@ body footer .iconos a {
   font-size: 40px;
   margin: 0 20px;
 }
-body footer .facebook:hover {
+body main .facebook:hover {
   background: #3b5998;
 }
-body footer .twitter:hover {
+body main .twitter:hover {
   background: #1da1f2;
 }
-body footer .youtube:hover {
+body main .youtube:hover {
   background: #ff0000;
 }
 
